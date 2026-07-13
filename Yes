@@ -1,0 +1,394 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    },
+    "widgets": {
+      "application/vnd.jupyter.widget-state+json": {
+        "version_major": 2,
+        "version_minor": 0,
+        "state": {
+          "7a5123622e654d5ba0ab79cac2f2ab86": {
+            "model_module": "@jupyter-widgets/controls",
+            "model_name": "IntSliderModel",
+            "model_module_version": "1.5.0",
+            "state": {
+              "_dom_classes": [],
+              "_model_module": "@jupyter-widgets/controls",
+              "_model_module_version": "1.5.0",
+              "_model_name": "IntSliderModel",
+              "_view_count": null,
+              "_view_module": "@jupyter-widgets/controls",
+              "_view_module_version": "1.5.0",
+              "_view_name": "IntSliderView",
+              "continuous_update": true,
+              "description": "Number:",
+              "description_tooltip": null,
+              "disabled": false,
+              "layout": "IPY_MODEL_52934ef1b7104e2da832109eefa54f76",
+              "max": 100,
+              "min": 0,
+              "orientation": "horizontal",
+              "readout": true,
+              "readout_format": "d",
+              "step": 1,
+              "style": "IPY_MODEL_e0470661e10040c9abdf520cf9e2810d",
+              "value": 77
+            }
+          },
+          "52934ef1b7104e2da832109eefa54f76": {
+            "model_module": "@jupyter-widgets/base",
+            "model_name": "LayoutModel",
+            "model_module_version": "1.2.0",
+            "state": {
+              "_model_module": "@jupyter-widgets/base",
+              "_model_module_version": "1.2.0",
+              "_model_name": "LayoutModel",
+              "_view_count": null,
+              "_view_module": "@jupyter-widgets/base",
+              "_view_module_version": "1.2.0",
+              "_view_name": "LayoutView",
+              "align_content": null,
+              "align_items": null,
+              "align_self": null,
+              "border": null,
+              "bottom": null,
+              "display": null,
+              "flex": null,
+              "flex_flow": null,
+              "grid_area": null,
+              "grid_auto_columns": null,
+              "grid_auto_flow": null,
+              "grid_auto_rows": null,
+              "grid_column": null,
+              "grid_gap": null,
+              "grid_row": null,
+              "grid_template_areas": null,
+              "grid_template_columns": null,
+              "grid_template_rows": null,
+              "height": null,
+              "justify_content": null,
+              "justify_items": null,
+              "left": null,
+              "margin": null,
+              "max_height": null,
+              "max_width": null,
+              "min_height": null,
+              "min_width": null,
+              "object_fit": null,
+              "object_position": null,
+              "order": null,
+              "overflow": null,
+              "overflow_x": null,
+              "overflow_y": null,
+              "padding": null,
+              "right": null,
+              "top": null,
+              "visibility": null,
+              "width": null
+            }
+          },
+          "e0470661e10040c9abdf520cf9e2810d": {
+            "model_module": "@jupyter-widgets/controls",
+            "model_name": "SliderStyleModel",
+            "model_module_version": "1.5.0",
+            "state": {
+              "_model_module": "@jupyter-widgets/controls",
+              "_model_module_version": "1.5.0",
+              "_model_name": "SliderStyleModel",
+              "_view_count": null,
+              "_view_module": "@jupyter-widgets/base",
+              "_view_module_version": "1.2.0",
+              "_view_name": "StyleView",
+              "description_width": "",
+              "handle_color": null
+            }
+          },
+          "398f9bd27bff4e82b540dd56f2cc09d4": {
+            "model_module": "@jupyter-widgets/output",
+            "model_name": "OutputModel",
+            "model_module_version": "1.0.0",
+            "state": {
+              "_dom_classes": [],
+              "_model_module": "@jupyter-widgets/output",
+              "_model_module_version": "1.0.0",
+              "_model_name": "OutputModel",
+              "_view_count": null,
+              "_view_module": "@jupyter-widgets/output",
+              "_view_module_version": "1.0.0",
+              "_view_name": "OutputView",
+              "layout": "IPY_MODEL_ee4cc61add1d44fba3bbd8f7faf4594a",
+              "msg_id": "",
+              "outputs": [
+                {
+                  "output_type": "stream",
+                  "name": "stdout",
+                  "text": [
+                    "The square of 77 is 18188037387806198379277339915556929647807403283187048631478337739929618787870634227045716719924575689062274471430368865388203540672666042530996797\n"
+                  ]
+                }
+              ]
+            }
+          },
+          "ee4cc61add1d44fba3bbd8f7faf4594a": {
+            "model_module": "@jupyter-widgets/base",
+            "model_name": "LayoutModel",
+            "model_module_version": "1.2.0",
+            "state": {
+              "_model_module": "@jupyter-widgets/base",
+              "_model_module_version": "1.2.0",
+              "_model_name": "LayoutModel",
+              "_view_count": null,
+              "_view_module": "@jupyter-widgets/base",
+              "_view_module_version": "1.2.0",
+              "_view_name": "LayoutView",
+              "align_content": null,
+              "align_items": null,
+              "align_self": null,
+              "border": null,
+              "bottom": null,
+              "display": null,
+              "flex": null,
+              "flex_flow": null,
+              "grid_area": null,
+              "grid_auto_columns": null,
+              "grid_auto_flow": null,
+              "grid_auto_rows": null,
+              "grid_column": null,
+              "grid_gap": null,
+              "grid_row": null,
+              "grid_template_areas": null,
+              "grid_template_columns": null,
+              "grid_template_rows": null,
+              "height": null,
+              "justify_content": null,
+              "justify_items": null,
+              "left": null,
+              "margin": null,
+              "max_height": null,
+              "max_width": null,
+              "min_height": null,
+              "min_width": null,
+              "object_fit": null,
+              "object_position": null,
+              "order": null,
+              "overflow": null,
+              "overflow_x": null,
+              "overflow_y": null,
+              "padding": null,
+              "right": null,
+              "top": null,
+              "visibility": null,
+              "width": null
+            }
+          }
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "!pip install bayesian-optimization"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hnZBbuXT9vrd",
+        "outputId": "2a037335-d8b5-439a-8e2f-6081924db8a9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Collecting bayesian-optimization\n",
+            "  Downloading bayesian_optimization-3.3.0-py3-none-any.whl.metadata (11 kB)\n",
+            "Collecting colorama>=0.4.6 (from bayesian-optimization)\n",
+            "  Downloading colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)\n",
+            "Requirement already satisfied: numpy>=1.25 in /usr/local/lib/python3.12/dist-packages (from bayesian-optimization) (2.0.2)\n",
+            "Requirement already satisfied: packaging>=20.0 in /usr/local/lib/python3.12/dist-packages (from bayesian-optimization) (26.2)\n",
+            "Requirement already satisfied: scikit-learn>=1.0.0 in /usr/local/lib/python3.12/dist-packages (from bayesian-optimization) (1.6.1)\n",
+            "Requirement already satisfied: scipy>=1.0.0 in /usr/local/lib/python3.12/dist-packages (from bayesian-optimization) (1.16.3)\n",
+            "Requirement already satisfied: joblib>=1.2.0 in /usr/local/lib/python3.12/dist-packages (from scikit-learn>=1.0.0->bayesian-optimization) (1.5.3)\n",
+            "Requirement already satisfied: threadpoolctl>=3.1.0 in /usr/local/lib/python3.12/dist-packages (from scikit-learn>=1.0.0->bayesian-optimization) (3.6.0)\n",
+            "Downloading bayesian_optimization-3.3.0-py3-none-any.whl (37 kB)\n",
+            "Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)\n",
+            "Installing collected packages: colorama, bayesian-optimization\n",
+            "Successfully installed bayesian-optimization-3.3.0 colorama-0.4.6\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import numpy as np\n",
+        "\n",
+        "def simulated_taVNS_response(amplitude, frequency, pulse_width):\n",
+        "    \"\"\"\n",
+        "    This simulates a patient's Heart Rate Variability (HRV) improvement.\n",
+        "    Higher score = Better therapeutic effect.\n",
+        "    \"\"\"\n",
+        "    # Perfect target parameters for this \"virtual patient\"\n",
+        "    target_amp = 2\n",
+        "    target_freq = 25\n",
+        "    target_width = 200\n",
+        "\n",
+        "    # Calculate how far away the AI's guess is from the perfect settings\n",
+        "    distance_from_ideal = (\n",
+        "        (amplitude - target_amp)**2 +\n",
+        "        ((frequency - target_freq) / 10)**2 +\n",
+        "        ((pulse_width - target_width) / 100)**2\n",
+        "    )\n",
+        "\n",
+        "    # Base physiological response\n",
+        "    hrv_improvement = 100 - distance_from_ideal\n",
+        "\n",
+        "    # Safety penalty: if amplitude is too high, it hurts the patient (drops the score)\n",
+        "    if amplitude > 3.0:\n",
+        "        hrv_improvement -= 50  # Mimics a painful side effect threshold\n",
+        "\n",
+        "    return hrv_improvement"
+      ],
+      "metadata": {
+        "id": "fz7hH24g9wVg"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from bayes_opt import BayesianOptimization\n",
+        "\n",
+        "# 1. Define the search boundaries (Safe limits for a typical taVNS device)\n",
+        "search_boundaries = {\n",
+        "    'amplitude': (0.1, 4.0),     # mA (milliamperes)\n",
+        "    'frequency': (1.0, 50.0),    # Hz (hertz)\n",
+        "    'pulse_width': (50.0, 300.0) # microseconds\n",
+        "}\n",
+        "\n",
+        "# 2. Initialize the optimizer optimizer\n",
+        "optimizer = BayesianOptimization(\n",
+        "    f=simulated_taVNS_response,\n",
+        "    pbounds=search_boundaries,\n",
+        "    random_state=42, # Keeps results consistent every time you run it\n",
+        ")\n",
+        "\n",
+        "# 3. Let it explore!\n",
+        "# init_points = random guesses to start drawing the \"blurry map\"\n",
+        "# n_iter = how many steps the AI takes to home in on the perfect setting\n",
+        "optimizer.maximize(init_points=3, n_iter=80)\n",
+        "\n",
+        "# 4. Print out the ultimate settings found\n",
+        "print(\"\\n--- OPTIMIZATION COMPLETE ---\")\n",
+        "print(\"Best Simulated Target Score Found:\", optimizer.max['target'])\n",
+        "print(\"Optimal Parameters Chosen by AI:\", optimizer.max['params'])"
+      ],
+      "metadata": {
+        "id": "TNZmYF-g-TN3"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "dead6e54"
+      },
+      "source": [
+        "### Creating an Interactive Slider with `ipywidgets`\n",
+        "\n",
+        "Here's how you can make a slider that controls an input to a function in Colab."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 104,
+          "referenced_widgets": [
+            "7a5123622e654d5ba0ab79cac2f2ab86",
+            "52934ef1b7104e2da832109eefa54f76",
+            "e0470661e10040c9abdf520cf9e2810d",
+            "398f9bd27bff4e82b540dd56f2cc09d4",
+            "ee4cc61add1d44fba3bbd8f7faf4594a"
+          ]
+        },
+        "id": "bddfe4dd",
+        "outputId": "32fc8a40-578f-4115-ba0c-8d7fa5511ec9"
+      },
+      "source": [
+        "import ipywidgets as widgets\n",
+        "from IPython.display import display\n",
+        "\n",
+        "# A simple function we want to control with a slider\n",
+        "def calculate_square(value):\n",
+        "    print(f\"The square of {value} is {value ** value}\")\n",
+        "\n",
+        "# Create a slider widget\n",
+        "# min, max, step define the range and granularity\n",
+        "# description is the label for the slider\n",
+        "slider = widgets.IntSlider(\n",
+        "    min=0,\n",
+        "    max=100,\n",
+        "    step=1,\n",
+        "    description='Number:',\n",
+        "    value=50  # Initial value\n",
+        ")\n",
+        "\n",
+        "# Link the slider to the function\n",
+        "# Whenever the slider's value changes, calculate_square will be called with the new value\n",
+        "output = widgets.interactive_output(calculate_square, {'value': slider})\n",
+        "\n",
+        "# Display the slider and its output\n",
+        "display(slider, output)"
+      ],
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "IntSlider(value=50, description='Number:')"
+            ],
+            "application/vnd.jupyter.widget-view+json": {
+              "version_major": 2,
+              "version_minor": 0,
+              "model_id": "7a5123622e654d5ba0ab79cac2f2ab86"
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "Output()"
+            ],
+            "application/vnd.jupyter.widget-view+json": {
+              "version_major": 2,
+              "version_minor": 0,
+              "model_id": "398f9bd27bff4e82b540dd56f2cc09d4"
+            }
+          },
+          "metadata": {}
+        }
+      ]
+    }
+  ]
+}
